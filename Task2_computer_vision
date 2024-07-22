@@ -4,7 +4,7 @@ from ultralytics import YOLO
 model = YOLO('best1.pt')  # pretrained YOLOv8n model
 
 # Run batched inference on a list of images
-results = model(['manas.jpg'])  # return a list of Results objects
+results = model(['image_5.jpg'])  # return a list of Results objects
 
 # Process results list
 for result in results:
